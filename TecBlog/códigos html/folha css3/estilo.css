@@ -1,0 +1,109 @@
+/* declarações em elementos diretos (seletores)  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #e6e6e6;
+}
+
+header{
+    background:orange;
+    text-align: center;
+    margin: 0px;
+    font-weight:lighter;
+}
+span{
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+
+    color:white;
+}
+a:hover {
+    color: orange;
+    background: white;
+    padding: 5px;
+ }
+
+h1{
+    font-size: 2.5em;
+    color: rgb(49, 49, 49);
+}
+h2
+{
+    font-size: 1.4em;
+}
+
+p{
+    color: black;
+}
+
+
+/* layout*/
+
+
+#logo{
+
+    padding: 10px;
+}
+
+#menu{
+    padding: 10px;
+        
+    
+}
+
+.branco{
+    color:white;
+}
+
+#conteudo{
+    
+    width: 920px;
+    margin: 0 auto;
+    padding:15px;
+    color: orange;
+    
+
+}
+
+.posts{
+    background: white;
+    width: 660px;
+    float:left;
+    padding-left:15px;
+    padding-top: 15px;
+    padding-right: 0;
+
+}
+
+#menulat{
+    background: white;
+    width: 240px;
+    float: right;
+    
+}
+
+#footer{
+    text-align: center;
+    clear: both;
+    background: rgb(63, 63, 63);
+    color: white;
+    padding:10px;    
+}
+
